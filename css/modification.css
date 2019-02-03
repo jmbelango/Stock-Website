@@ -46,9 +46,6 @@ body{
 }
 
 /** Ticker **/
-.ticker-box1{
-    width: 15%;
-}
-.ticker-box2{
-    width: 14.16666666666667%;
+.sliding-item::after{
+    content: "|";
 }
